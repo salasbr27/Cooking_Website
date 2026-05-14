@@ -1,81 +1,78 @@
-/* GENERAL PAGE STYLING */
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* HEADER */
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fafafa;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+/* Header */
 header {
-  background-color: #f05a28;
-  padding: 20px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 .logo {
-  font-size: 28px;
-  font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
 }
 
-/* NAVIGATION BAR */
+/* Navigation */
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10px;
 }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
+nav a:hover {
+    text-decoration: underline;
 }
 
-/* MAIN CONTENT */
+/* Main Content */
 main {
-  padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.welcome h1 {
-  font-size: 32px;
-  margin-bottom: 5px;
+/* Headings */
+h1, h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
 }
 
-.welcome p {
-  font-size: 18px;
-  margin-bottom: 20px;
+/* Lists */
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-/* TABLE STYLING */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: white;
-  margin-top: 20px;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 12px;
-}
-
-th {
-  background-color: #f05a28;
-  color: white;
-  text-align: left;
-  font-weight: bold;
-}
-
-/* FOOTER */
+/* Footer */
 footer {
-  background-color: #333;
-  color:
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+}
